@@ -7,10 +7,10 @@ install:
 script:
 - python test.py
 deploy:
+  on:
+    branch: master
   provider: heroku
   app: devopsalex
   api:
     key:
       secure: AiqEXoCtMYMlG1sjRIyJLTIQwMpgCwe/Ot/kDk3CnnR+Mi+VIZBtiAqgdPTHhgSmYk1ZVGuEu7SJyoaaSZy2zYrnqdzMNI8/g/NCMPIPJX5Mi8MFTs5AugVTcIblkyHPw/b4vYCuFtiV0SBj2MXlAAw4EZxaq5d3lS0tKtnBzigij7BJHpaujjoXsANvrd/t9XOIuVUdHJplAUKxbiEVX+0u+GJNACIlnv66KxzmkeR54SWnNlV0gii64jwPwQp/hCQ80h3bK5WlAN+tK/FXE8Luhqj/QyaKfAV6+zxaLNfcSobICJjWN4Jlp7Bn1in1BAboFlMvXIzo5e7aXIpgaEnqmn6QgDkeSNmhjYxRLfnaXEbPY/6yDoEskqjVcjtMD5cRyv/8Gboz+NKE1Z+TUF5NXqdReXtsfiGd9gOm8LPIE3qU+CZg2ywE75oMJ7TeMwVobgoi45+u9sYJs+15ZMr9NlVdERdkxPCGUGKYo+mn0kmAnKNrI66n0fBiT0boI0SkeusNNskKxX+a6wLQoRYMG3F79VtsCVuPWfP//ZZc9/4Fy30qo0aWzY611tJIllA9QApCUxamr6E0pUmx/+e8tUQOIqCTfUw417E45idwKuyXfDqxd0Hj50kHOpvVbQm/dR8KjIdgQfBLIOKzXEIhhDtOgCUMS6uddOPHw0M=
-  on:
-    branch: master
